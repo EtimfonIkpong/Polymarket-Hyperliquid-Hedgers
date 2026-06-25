@@ -1,0 +1,330 @@
+{
+  "0x947db9d96aea1650d4879eba95e0d6aa0dd93e90": {
+    "AAPL": {
+      "hl_side": "Long",
+      "hl_pnl": 119.82,
+      "pm_matches": [
+        {
+          "question": "Will Apple reach $280 in November?",
+          "window": "2025-10-30T19:05:09.351Z \u2192 2025-12-01T04:59:59.999Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.4367,
+          "pm_spent": 139.52,
+          "pm_sold_early": false
+        },
+        {
+          "question": "Will Apple (AAPL) hit $300 before 2026??",
+          "window": "2025-11-21T15:25:47.075092Z \u2192 2025-12-31T23:59:59Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.2367,
+          "pm_spent": 109.0,
+          "pm_sold_early": true
+        },
+        {
+          "question": "Will Apple (AAPL) hit $285 before 2026??",
+          "window": "2025-11-21T15:25:48.216677Z \u2192 2025-12-31T23:59:59Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.73,
+          "pm_spent": 73.0,
+          "pm_sold_early": true
+        }
+      ]
+    },
+    "GOLD": {
+      "hl_side": "Long",
+      "hl_pnl": 348.77,
+      "pm_matches": [
+        {
+          "question": "Will Gold close between $4200 and $4300 at the end of 2025?",
+          "window": "2025-10-16T17:14:29.265325Z \u2192 2025-12-31T00:00:00Z",
+          "pm_direction": "Unknown",
+          "pm_avg_price": 0,
+          "pm_spent": 0,
+          "pm_sold_early": true
+        },
+        {
+          "question": "Will Gold close between $4300 and $4400 at the end of 2025?",
+          "window": "2025-10-16T17:14:29.770619Z \u2192 2025-12-31T00:00:00Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.4385,
+          "pm_spent": 456.04,
+          "pm_sold_early": true
+        },
+        {
+          "question": "Will Gold close between $4400 and $4500 at the end of 2025?",
+          "window": "2025-10-16T17:14:29.517968Z \u2192 2025-12-31T00:00:00Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.3814,
+          "pm_spent": 713.0,
+          "pm_sold_early": true
+        }
+      ]
+    },
+    "GOOGL": {
+      "hl_side": "Short",
+      "hl_pnl": 170.33,
+      "pm_matches": [
+        {
+          "question": "Will Google reach $300 in November?",
+          "window": "2025-10-30T19:05:32.779Z \u2192 2025-12-01T04:59:59.999Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.74,
+          "pm_spent": 25.16,
+          "pm_sold_early": false
+        },
+        {
+          "question": "Will Google reach $290 in November?",
+          "window": "2025-10-30T19:05:36.074Z \u2192 2025-12-01T04:59:59.999Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.2064,
+          "pm_spent": 5.0,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "NVDA": {
+      "hl_side": "Short",
+      "hl_pnl": 43.46,
+      "pm_matches": [
+        {
+          "question": "Will NVIDIA (NVDA) close above $180 end of November?",
+          "window": "2025-11-03T19:34:42.150249Z \u2192 2025-11-28T21:00:00Z",
+          "pm_direction": "Unknown",
+          "pm_avg_price": 0,
+          "pm_spent": 0,
+          "pm_sold_early": true
+        },
+        {
+          "question": "Will NVIDIA (NVDA) finish week of November 17 above $180?",
+          "window": "2025-11-18T18:46:28.130259Z \u2192 2025-11-21T21:00:00Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.33,
+          "pm_spent": 3.3,
+          "pm_sold_early": false
+        },
+        {
+          "question": "Will NVIDIA (NVDA) hit $190 before 2026??",
+          "window": "2025-11-21T16:00:01.697171Z \u2192 2025-12-31T23:59:59Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.2633,
+          "pm_spent": 31.4,
+          "pm_sold_early": true
+        },
+        {
+          "question": "Will NVIDIA (NVDA) hit $165 before 2026??",
+          "window": "2025-11-21T16:00:01.187809Z \u2192 2025-12-31T23:59:59Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.32,
+          "pm_spent": 98.0,
+          "pm_sold_early": true
+        },
+        {
+          "question": "Will NVIDIA (NVDA) hit $160 before 2026??",
+          "window": "2025-11-21T15:59:58.543246Z \u2192 2025-12-31T23:59:59Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.4,
+          "pm_spent": 28.86,
+          "pm_sold_early": true
+        }
+      ]
+    }
+  },
+  "0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac": {
+    "AAPL": {
+      "hl_side": "Long",
+      "hl_pnl": 4.47,
+      "pm_matches": [
+        {
+          "question": "Will Apple be the largest company in the world by market cap on November 30?",
+          "window": "2025-10-10T21:52:28.535Z \u2192 2025-11-30T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.942,
+          "pm_spent": 9.42,
+          "pm_sold_early": false
+        },
+        {
+          "question": "Apple (AAPL) Up or Down on November 28?",
+          "window": "2025-11-26T13:01:06.914218Z \u2192 2025-11-28T21:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.61,
+          "pm_spent": 6.1,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "GOOGL": {
+      "hl_side": "Short",
+      "hl_pnl": -12.33,
+      "pm_matches": [
+        {
+          "question": "Will Google (GOOGL) close above $260 end of December?",
+          "window": "2025-11-28T23:23:36.353625Z \u2192 2025-12-31T21:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.996,
+          "pm_spent": 9.96,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "MSFT": {
+      "hl_side": "Long",
+      "hl_pnl": 11.17,
+      "pm_matches": [
+        {
+          "question": "Will Microsoft dip to $465 in November?",
+          "window": "2025-10-30T19:05:14.898Z \u2192 2025-12-01T04:59:59.999Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.88,
+          "pm_spent": 288.19,
+          "pm_sold_early": true
+        }
+      ]
+    },
+    "NVDA": {
+      "hl_side": "Short",
+      "hl_pnl": 29.79,
+      "pm_matches": [
+        {
+          "question": "Will NVIDIA (NVDA) close at <$160 in 2025?",
+          "window": "2025-11-24T22:03:28.467125Z \u2192 2025-12-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.865,
+          "pm_spent": 17.3,
+          "pm_sold_early": true
+        }
+      ]
+    }
+  },
+  "0xfece5d531c16508de2bd445e772e51d143c0d147": {
+    "GOLD": {
+      "hl_side": "Long",
+      "hl_pnl": -118.15,
+      "pm_matches": [
+        {
+          "question": "First to 5k: Gold or ETH?",
+          "window": "2025-10-08T19:20:25.421513Z \u2192 2026-06-30T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.89,
+          "pm_spent": 14.0,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "GOOGL": {
+      "hl_side": "Short",
+      "hl_pnl": -52.1,
+      "pm_matches": [
+        {
+          "question": "Will Google (GOOGL) close above $220 end of November?",
+          "window": "2025-11-03T19:34:33.398769Z \u2192 2025-11-28T21:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.997,
+          "pm_spent": 20.0,
+          "pm_sold_early": false
+        },
+        {
+          "question": "Will Google (GOOGL) hit $345 before 2026??",
+          "window": "2025-11-21T15:59:56.685599Z \u2192 2025-12-31T23:59:59Z",
+          "pm_direction": "Neutral",
+          "pm_avg_price": 0.5,
+          "pm_spent": 2.0,
+          "pm_sold_early": false
+        },
+        {
+          "question": "Will Google (GOOGL) close at <$250 in 2025?",
+          "window": "2025-11-24T22:03:07.620853Z \u2192 2025-12-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.998,
+          "pm_spent": 1.0,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "META": {
+      "hl_side": "Short",
+      "hl_pnl": -8.64,
+      "pm_matches": [
+        {
+          "question": "Will Meta reach $960 in November?",
+          "window": "2025-10-30T19:05:36.631Z \u2192 2025-12-01T04:59:59.999Z",
+          "pm_direction": "No (bearish)",
+          "pm_avg_price": 0.01,
+          "pm_spent": 5.0,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "NVDA": {
+      "hl_side": "Long",
+      "hl_pnl": 18.45,
+      "pm_matches": [
+        {
+          "question": "Will NVIDIA be the largest company in the world by market cap on March 31?",
+          "window": "2025-11-12T21:11:40.976707Z \u2192 2026-03-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.998,
+          "pm_spent": 5.0,
+          "pm_sold_early": false
+        }
+      ]
+    }
+  },
+  "0x2203e88248a59eec300f2bffecceabe29e0986b4": {
+    "AMZN": {
+      "hl_side": "Short",
+      "hl_pnl": -4.76,
+      "pm_matches": [
+        {
+          "question": "Will Amazon be the largest company in the world by market cap on March 31?",
+          "window": "2025-11-12T21:11:42.816559Z \u2192 2026-03-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.999,
+          "pm_spent": 5.0,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "MSFT": {
+      "hl_side": "Short",
+      "hl_pnl": -7.14,
+      "pm_matches": [
+        {
+          "question": "Will Microsoft be the largest company in the world by market cap on March 31?",
+          "window": "2025-11-12T21:11:40.722185Z \u2192 2026-03-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.999,
+          "pm_spent": 5.12,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "NVDA": {
+      "hl_side": "Long",
+      "hl_pnl": 26.68,
+      "pm_matches": [
+        {
+          "question": "Will NVIDIA be the largest company in the world by market cap on March 31?",
+          "window": "2025-11-12T21:11:40.976707Z \u2192 2026-03-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.997,
+          "pm_spent": 209.88,
+          "pm_sold_early": false
+        }
+      ]
+    },
+    "TSLA": {
+      "hl_side": "Short",
+      "hl_pnl": 2.39,
+      "pm_matches": [
+        {
+          "question": "Will Tesla be the largest company in the world by market cap on March 31?",
+          "window": "2025-11-12T21:11:43.326192Z \u2192 2026-03-31T00:00:00Z",
+          "pm_direction": "Yes (bullish)",
+          "pm_avg_price": 0.999,
+          "pm_spent": 5.0,
+          "pm_sold_early": false
+        }
+      ]
+    }
+  }
+}

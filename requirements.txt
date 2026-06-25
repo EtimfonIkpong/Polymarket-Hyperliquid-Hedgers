@@ -1,0 +1,17 @@
+# Core
+requests>=2.31.0
+web3>=6.0.0
+
+# Data processing
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# AWS S3 (Hydromancer archive download)
+boto3>=1.34.0
+botocore>=1.34.0
+
+# Statistics
+statistics  # built-in, listed for clarity
+
+# Optional (used for DuckDB bulk scan attempt — not required for main pipeline)
+# duckdb>=0.9.0

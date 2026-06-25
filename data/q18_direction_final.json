@@ -1,0 +1,22 @@
+{
+  "hl_side": {
+    "Long": 153,
+    "Short": 129
+  },
+  "pm_direction_inferred": {
+    "Buying Yes (bullish)": 185,
+    "Buying No  (bearish)": 88,
+    "Neutral (near 50/50)": 9
+  },
+  "combined_patterns": {
+    "HL: Long   |  PM: Buying Yes (bullish)": 84,
+    "HL: Short  |  PM: Buying Yes (bullish)": 101,
+    "HL: Long   |  PM: Buying No  (bearish)": 65,
+    "HL: Short  |  PM: Buying No  (bearish)": 23,
+    "HL: Long   |  PM: Neutral (near 50/50)": 4,
+    "HL: Short  |  PM: Neutral (near 50/50)": 5
+  },
+  "same_direction_count": 107,
+  "opposite_direction_count": 166,
+  "total_analyzed": 282
+}

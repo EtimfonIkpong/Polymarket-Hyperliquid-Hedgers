@@ -1,6 +1,6 @@
-# Polymarket × Hyperliquid HIP-3 Hedging Research
+# Polymarket Hedging Research
 
-An on-chain investigation into whether traders who bet on Polymarket's Finance-category markets simultaneously hold correlated perpetual positions on Hyperliquid's HIP-3 builder-deployed exchanges — specifically trade.xyz, where the same real-world assets (NVDA, GOLD, SP500, TSLA, etc.) are tradeable as on-chain perpetual futures.
+This is an on-chain analysis carried out to check whether traders who bet on Polymarket's Finance-category markets simultaneously hold correlated perpetual positions on Hyperliquid's HIP-3 builder-deployed exchanges, specifically trade.xyz, where the same real-world assets (NVDA, GOLD, SP500, TSLA, etc.) are tradeable as on-chain perpetual futures.
 
 ---
 
@@ -23,25 +23,14 @@ An on-chain investigation into whether traders who bet on Polymarket's Finance-c
 
 ---
 
-## What Counts as "Hedging"
+## What Counts as Hedging?
 
 A wallet is only counted as a confirmed hedger if **both** conditions hold simultaneously:
 
 1. They placed a bet on a Polymarket market whose question names a specific asset (e.g. "Will NVDA hit $150?")
 2. They held an active position in that **same asset** on Hyperliquid/trade.xyz during the **exact time window** that Polymarket market was open for betting
 
-Asset-match alone (same asset, different time) was not sufficient — the timing had to genuinely overlap. This reduced the candidate pool from 1,413 wallets down to 158.
-
----
-
-## Key Insight
-
-The 15,091x average ratio between Hyperliquid position size and Polymarket bet size fundamentally reframes the finding:
-
-> These are not Polymarket bettors hedging on Hyperliquid.
-> They are **Hyperliquid traders placing small, correlated side bets on Polymarket.**
-
-The median Polymarket bet among confirmed hedgers was **$17.00**, while a typical trade.xyz position runs $5,000–$20,000 notional. Polymarket functions as a high-leverage, low-capital directional expression tool — not a precision hedge instrument.
+Asset-match alone (same asset, different time) was not sufficient hence the timing had to genuinely overlap. This reduced the candidate pool from 1,413 wallets down to 158.
 
 ---
 
@@ -55,56 +44,19 @@ The median Polymarket bet among confirmed hedgers was **$17.00**, while a typica
 | Alchemy (Polygon RPC) | On-chain `getOwners()` calls for Gnosis Safe proxy wallets | Free API key |
 | Hyperliquid native API | Live open position snapshots (no key, no rate cap daily) | None |
 | Hydromancer Reservoir (S3) | Complete trade.xyz fill history since launch (Oct 13 2025) | AWS credentials (free, ~cents cost) |
-
-### Tools That Were Evaluated But Not Used in Final Pipeline
-
-- **The Graph (Polymarket subgraph):** The `positions` entity tracks liquidity providers, not bettors. Abandoned early.
-- **HyperTracker (CoinMarketMan):** Excellent data but 100 request/day free tier was far too restrictive for bulk analysis at this scale.
-
----
-
-## Pipeline Overview
-
-```
-PHASE 1 — Polymarket Data Collection
-  ├── Fetch 2,004 Finance-category markets (Gamma API)
-  ├── Collect 116,054 proxy wallet addresses (Data API)
-  └── Resolve 63,264 real EOAs (Alchemy RPC + web3.py)
-
-PHASE 2 — Hyperliquid Cross-Reference
-  ├── Snapshot: 451 wallets with current open positions (native API)
-  └── History: Download complete trade.xyz archive (Hydromancer S3)
-              → 337M fills, filtered to 1,759,220 matched fills
-              → 1,413 wallets trading both platforms
-
-PHASE 3 — Matching
-  ├── Reconstruct position open/close intervals from fills
-  ├── Match asset keywords against Polymarket questions
-  ├── Apply temporal overlap test
-  └── 158 confirmed hedgers, 198 wallet-asset relationships
-
-PHASE 4 — Analysis
-  ├── Entry/exit sequencing (which platform first?)
-  ├── Directional analysis (Long+Yes? Short+No? genuine hedge?)
-  ├── Full vs partial hedge sizing
-  ├── P&L breakdown by entry/exit pattern
-  ├── Volume and nominal volume by asset
-  ├── Concentration (top 10 traders = 49.8% of volume)
-  ├── Temporal trend (peak Nov 2025, rapid decline after)
-  └── Structural hedger behavioral profiling (4 wallets)
 ```
 
 ---
 
-## Directional Findings (Q18)
+## Directional Findings
 
 Of 282 confirmed matches with directional data:
 
 ```
-HL Short + PM Buying Yes   : 101  (35.8%)  ← genuine hedge
-HL Long  + PM Buying Yes   :  84  (29.8%)  ← doubling down
-HL Long  + PM Buying No    :  65  (23.0%)  ← genuine hedge
-HL Short + PM Buying No    :  23   (8.2%)  ← doubling down
+HL Short + PM Buying Yes   : 101  (35.8%) 
+HL Long  + PM Buying Yes   :  84  (29.8%) 
+HL Long  + PM Buying No    :  65  (23.0%) 
+HL Short + PM Buying No    :  23   (8.2%) 
 Neutral                    :   9   (3.2%)
 
 Genuine hedges (opposite)  : 166  (58.9%)

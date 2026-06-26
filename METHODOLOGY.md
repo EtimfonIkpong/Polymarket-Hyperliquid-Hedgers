@@ -1,8 +1,8 @@
-# Methodology: Identifying Cross-Platform Hedgers Between Polymarket and Hyperliquid HIP-3
+# Methodology: Identifying Cross-Platform Hedgers Between Polymarket and Hyperliquid HIP-3 (Tradexyz)
 
 ## Research Question
 
-This research investigates whether traders who bet on Polymarket's Finance-category markets — covering stocks, commodities, indices, and macro events — simultaneously hold or held correlated perpetual positions on Hyperliquid, specifically on HIP-3 builder-deployed exchanges such as trade.xyz, where the same real-world assets (NVDA, GOLD, SP500, TSLA, etc.) are tradeable as on-chain perpetual futures contracts.
+This research investigates whether traders who bet on Polymarket's Finance-category markets covering stocks, commodities, indices, and macro events which simultaneously hold or held correlated perpetual positions on Hyperliquid, specifically on HIP-3 builder-deployed exchanges such as trade.xyz, where the same real-world assets (NVDA, GOLD, SP500, TSLA, etc.) are tradeable as on-chain perpetual futures contracts.
 
 The central hypothesis is that a trader betting "Will NVDA hit $150 before year-end?" on Polymarket while simultaneously holding an NVDA perpetual position on Hyperliquid is either hedging their prediction market bet or expressing the same directional view on two separate on-chain venues — a provable, verifiable, on-chain behavioural pattern.
 
@@ -94,31 +94,9 @@ The 52,514 unresolved addresses were predominantly inactive or very low-activity
 
 ---
 
-## Part 3 — Cross-Referencing With Hyperliquid: Three Approaches
+## Part 3 — Cross-Referencing With Hyperliquid:
 
-### 3.1 Attempt 1: HyperTracker (CoinMarketMan API)
-
-HyperTracker (`ht-api.coinmarketman.com`) was the first tool evaluated for cross-referencing. It offers enriched, pre-aggregated Hyperliquid data including wallet intelligence, reconstructed closed-trade history, open-interest snapshots, and position-level metrics — all via a clean REST API.
-
-**What worked:** The `/positions/coins` endpoint (listing all coins with open positions) and `/positions/open/coin/{coin}` (all wallets with open positions for a specific coin) both worked on the free plan and returned real data. This produced the first meaningful signal: **451 wallets** from the Polymarket EOA set were confirmed to currently hold open positions on Hyperliquid or trade.xyz.
-
-**What failed:** The free tier enforces a hard cap of **100 API requests per day**. Scanning the full 315-coin universe for both open and closed positions required 600+ requests minimum — far beyond the daily quota. A second attempt to bulk-pull 30 days of position history via the `/positions` endpoint ran correctly for the first 4 coins (NVDA, TSLA, AAPL, AMZN) producing 10,000+ position records each, then hit the rate limit on the 5th coin and stopped. Upgrading to a paid plan was the only path forward with HyperTracker, and was deferred.
-
-**Bugs discovered and fixed during this phase:**
-- HIP-3 coin identifiers use a `xyz:` prefix (e.g. `xyz:NVDA`). When passed in a URL, the colon needed to be percent-encoded (`xyz%3ANVDA`) — without this, the API silently returned empty results.
-- `SPX` on Hyperliquid is an unrelated memecoin (SPX6900), not the S&P 500 index. The correct HIP-3 ticker is `xyz:SP500`.
-
-### 3.2 Attempt 2: Hyperliquid's Native Public API
-
-The approach was then switched to Hyperliquid's own public `info` API (`api.hyperliquid.xyz/info`) — completely free, no API key required, with a weight-based rate limit of 1,200 per minute (each `clearinghouseState` call has weight 2, allowing approximately 600 calls per minute).
-
-The `perpDexs` endpoint was used to dynamically discover all active trading venues: the main Hyperliquid exchange plus 8 HIP-3 builder dexes — `xyz`, `flx`, `vntl`, `hyna`, `km`, `abcd`, `cash`, and `para`. Checking all 9 venues for all 63,264 wallets was estimated at approximately 20 hours of runtime.
-
-For the first pass, the check was scoped to `main` + `xyz` only, cutting estimated runtime to approximately 3.5 hours with 8 parallel workers. The `clearinghouseState` endpoint was called per wallet per dex — if `szi` (position size) was non-zero for any asset, the wallet was recorded as having an active position.
-
-**Result:** **451 wallets** currently holding open positions (confirming the HyperTracker finding). This approach was reliable but slow, and critically only captured wallets with positions **open at that exact moment** — anyone who had already closed a hedge was invisible.
-
-### 3.3 Breakthrough: Hydromancer's Reservoir Archive
+### 3.1 Hydromancer's Reservoir Archive
 
 Hydromancer (`docs.hydromancer.xyz`) maintains a free, public AWS S3 archive of complete Hyperliquid historical data — all fills, daily position snapshots, and candles — covering the main exchange and every HIP-3 deployer, with full history since each platform's launch.
 

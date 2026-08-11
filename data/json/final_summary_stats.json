@@ -1,0 +1,27 @@
+{
+  "total_matches": 323,
+  "unique_wallets": 158,
+  "by_asset": {
+    "NVDA": 117,
+    "GOLD": 75,
+    "GOOGL": 66,
+    "AAPL": 23,
+    "TSLA": 20,
+    "MSFT": 7,
+    "AMZN": 6,
+    "META": 5,
+    "XYZ100": 4
+  },
+  "top_repeat_wallets": {
+    "0x0e893d9769c3210c73843230dd250eecbc8fa302": 50,
+    "0x947db9d96aea1650d4879eba95e0d6aa0dd93e90": 13,
+    "0xdc04703855a5fd08f577a22f987fb41e49348a9a": 9,
+    "0x929d9bc38739d587278b77eb4cd23a027de5b4de": 6,
+    "0xbb52b82a367e2c45bbaa6375a5333c2e17663d55": 6,
+    "0xfece5d531c16508de2bd445e772e51d143c0d147": 6,
+    "0x2b64ea69157d6c6ddfe90a906f2eb235d25b21b6": 5,
+    "0x3194770e03ec3b0ebeaa7eb93b01290a85acc905": 5,
+    "0x3507cd15717bfe4d1414bdf69b05cd45450896ac": 5,
+    "0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac": 5
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "total_genuine_hedgers": 31,
+  "wallets": {
+    "0x00dfef5239af8aa2a260de92efc45898e0390c4f": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "GOOGL"
+      ],
+      "markets": [
+        "Will Google (GOOGL) hit $290 before 2026??",
+        "Will Google (GOOGL) hit $285 before 2026??",
+        "Will Google (GOOGL) hit $275 before 2026??"
+      ],
+      "match_count": 3
+    },
+    "0x2203e88248a59eec300f2bffecceabe29e0986b4": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA",
+        "AMZN"
+      ],
+      "markets": [
+        "Will Amazon be the largest company in the world by market cap on March 31?",
+        "Will NVIDIA be the largest company in the world by market cap on March 31?"
+      ],
+      "match_count": 2
+    },
+    "0x238ae641390a55969271161401880bb154b06ebe": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA be the second-largest company in the world by market cap on December 31?"
+      ],
+      "match_count": 1
+    },
+    "0x25484cb3130cfd833c8751266ab95d4c2993700b": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "TSLA"
+      ],
+      "markets": [
+        "Musk out as Tesla CEO in 2025?"
+      ],
+      "match_count": 1
+    },
+    "0x2b64ea69157d6c6ddfe90a906f2eb235d25b21b6": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) close at $185\u2013190 in 2025?",
+        "Will NVIDIA (NVDA) close at $190\u2013195 in 2025?",
+        "Will NVIDIA (NVDA) close at $195\u2013200 in 2025?"
+      ],
+      "match_count": 3
+    },
+    "0x2b722ee9a9932ead52af0586fdb545eb8758de68": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "GOOGL"
+      ],
+      "markets": [
+        "Will Google (GOOGL) hit $335 before 2026??",
+        "Will Google (GOOGL) close at $310\u2013325 in 2025?"
+      ],
+      "match_count": 2
+    },
+    "0x392ae4c105bd1ae95ffec05eefe645be3b6e6503": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "GOOGL"
+      ],
+      "markets": [
+        "Sundar Pichai out as Google CEO in 2025?"
+      ],
+      "match_count": 1
+    },
+    "0x41eb8d19ae61af581833c9e9cbdb25785fc6c08f": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) close at $185\u2013190 in 2025?"
+      ],
+      "match_count": 1
+    },
+    "0x4f7f36299e4ff4f54352cdd537e4f8d86cb2386c": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) beat quarterly earnings?"
+      ],
+      "match_count": 1
+    },
+    "0x4fe2e743da6e8d1aa0c9ed5489d8c2c9b5f96c87": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "GOOGL"
+      ],
+      "markets": [
+        "Will Google (GOOGL) hit $355 before 2026??"
+      ],
+      "match_count": 1
+    },
+    "0x57fc5d089f5aecf327b40472bcf52f52cf31928a": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "TSLA",
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) beat quarterly earnings?",
+        "Will Tesla acquire xAI in 2025?"
+      ],
+      "match_count": 2
+    },
+    "0x585fdb545362bfe550300d851d049244c21fc3d6": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "AAPL"
+      ],
+      "markets": [
+        "Will Apple be the second-largest company in the world by market cap on December 31?"
+      ],
+      "match_count": 1
+    },
+    "0x5d91c94fd64a08f9b9812c22f4da940b8ceda4ee": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) beat quarterly earnings?"
+      ],
+      "match_count": 1
+    },
+    "0x70770e5aa200d39bfd34b388fdd1d69a03f0a8f1": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) beat quarterly earnings?"
+      ],
+      "match_count": 1
+    },
+    "0x80401362dc41308f34195f85fa508695cab4f5eb": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "TSLA",
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) close at >$220 in 2025?",
+        "Will Tesla (TSLA) close at $415-$420 on the final day of trading of the week of Nov 24 \u2013 Nov 28?"
+      ],
+      "match_count": 2
+    },
+    "0x929d9bc38739d587278b77eb4cd23a027de5b4de": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "META"
+      ],
+      "markets": [
+        "Will Meta dip to $550 in November?",
+        "Will Meta (META) hit a 52-Week High by December 31?"
+      ],
+      "match_count": 2
+    },
+    "0x99291427e58c442636d265a5d65df23b9453db68": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "GOOGL"
+      ],
+      "markets": [
+        "Will Google (GOOGL) hit $345 before 2026??"
+      ],
+      "match_count": 1
+    },
+    "0x992fa1f4459042e59734c4e38bec152ff119ecdb": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA be the largest company in the world by market cap on March 31?"
+      ],
+      "match_count": 1
+    },
+    "0xa155ca5ecc705be8a8af4a90a26105c9ea02bf9e": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA",
+        "AAPL"
+      ],
+      "markets": [
+        "Tim Cook out as Apple CEO in 2025?",
+        "Will Apple acquire Perplexity in 2025?",
+        "Will Apple be the second-largest company in the world by market cap on December 31?",
+        "Will NVIDIA be the largest company in the world by market cap on November 30?"
+      ],
+      "match_count": 4
+    },
+    "0xa8da06619f2d7211f9625b57f37016f42a4bf105": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "AAPL"
+      ],
+      "markets": [
+        "Will Apple be the second-largest company in the world by market cap on December 31?"
+      ],
+      "match_count": 1
+    },
+    "0xb6d3e41eb7715e1460aabbb492f7fd1285fe78b3": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA be the largest company in the world by market cap on November 30?"
+      ],
+      "match_count": 1
+    },
+    "0xc4cee943e4f7140f568a38a0ebb967ba79600cc2": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA say \"Trump\" during earnings call?"
+      ],
+      "match_count": 1
+    },
+    "0xc80ee9083e9272eac75c19fa494625c9efd51166": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "TSLA"
+      ],
+      "markets": [
+        "Will Tesla (TSLA) hit $350 before 2026??"
+      ],
+      "match_count": 1
+    },
+    "0xdd5fc1676f84019ce3cffa6f52c3060363407c0e": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) close above $150 end of November?",
+        "Will NVIDIA (NVDA) close above $170 end of November?",
+        "Will NVIDIA (NVDA) beat quarterly earnings?"
+      ],
+      "match_count": 3
+    },
+    "0xe091de93dd7f640c81790f401cac162c1bdf143e": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "XYZ100"
+      ],
+      "markets": [
+        "Will Nasdaq (NDAQ) beat quarterly earnings?"
+      ],
+      "match_count": 1
+    },
+    "0xefd23d0db9ad1b53f4ba2b0f300707a9da4bd931": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "TSLA"
+      ],
+      "markets": [
+        "Will Tesla (TSLA) hit a 52-Week High by December 31?"
+      ],
+      "match_count": 1
+    },
+    "0xefe1be7c6d0fcfb83808382c86899ddaba2a6b60": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) beat quarterly earnings?"
+      ],
+      "match_count": 1
+    },
+    "0xf26da589c149efa79b2be62f4b81b1b63a8ea7cd": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA (NVDA) beat quarterly earnings?"
+      ],
+      "match_count": 1
+    },
+    "0xfa4efb76f67bfe940d026adace39a8dac1df3b76": {
+      "dominant_pattern": "HL: Long   |  PM: Bearish",
+      "assets": [
+        "NVDA"
+      ],
+      "markets": [
+        "Will NVIDIA dip to $144 in November?",
+        "Will NVIDIA dip to $124 in November?"
+      ],
+      "match_count": 2
+    },
+    "0xfa6a68bfc3082177627ec216a8034396d84b2342": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "MSFT"
+      ],
+      "markets": [
+        "Will Microsoft (MSFT) finish week of December 1 above $430?"
+      ],
+      "match_count": 1
+    },
+    "0xfece5d531c16508de2bd445e772e51d143c0d147": {
+      "dominant_pattern": "HL: Short  |  PM: Bullish",
+      "assets": [
+        "META",
+        "NVDA",
+        "GOOGL"
+      ],
+      "markets": [
+        "Will Google (GOOGL) close above $220 end of November?",
+        "Will Meta reach $960 in November?",
+        "Will NVIDIA be the largest company in the world by market cap on March 31?"
+      ],
+      "match_count": 3
+    }
+  }
+}

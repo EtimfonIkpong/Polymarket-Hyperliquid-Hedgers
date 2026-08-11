@@ -1,0 +1,97 @@
+wallet,total_matches,hedge_count,doubledown_count,neutral_count,assets,hedge_pct,hedge_markets,doubledown_markets
+0x0e893d9769c3210c73843230dd250eecbc8fa302,25,6,19,0,GOOGL,24.0,Will Google dip to $290 in December? | Will Google dip to $275 in December? | Will Google dip to $260 in December? | Will Google dip to $240 in December? | Will Google dip to $215 in December? | Will Google (GOOGL) close above $280 end of December?,Will Google (GOOGL) hit $375 before 2026?? | Will Google (GOOGL) hit $355 before 2026?? | Will Google (GOOGL) hit $345 before 2026?? | Will Google (GOOGL) hit $290 before 2026?? | Will Google (GOOGL) hit $285 before 2026?? | Will Google (GOOGL) hit $275 before 2026?? | Will Google (GOOGL) hit $260 before 2026?? | Will Google (GOOGL) hit $250 before 2026?? | Will Google (GOOGL) hit $230 before 2026?? | Will Google (GOOGL) hit $200 before 2026?? | Will Google reach $420 in December? | Will Google reach $395 in December? | Will Google reach $375 in December? | Will Google reach $355 in December? | Will Google reach $340 in December? | Will Google reach $330 in December? | Will Google (GOOGL) close above $360 end of December? | Will Google (GOOGL) close above $370 end of December? | Will Google (GOOGL) close above $380 end of December?
+0x00dfef5239af8aa2a260de92efc45898e0390c4f,3,3,0,0,GOOGL,100.0,Will Google (GOOGL) hit $290 before 2026?? | Will Google (GOOGL) hit $285 before 2026?? | Will Google (GOOGL) hit $275 before 2026??,
+0x2b64ea69157d6c6ddfe90a906f2eb235d25b21b6,3,3,0,0,NVDA,100.0,Will NVIDIA (NVDA) close at $185–190 in 2025? | Will NVIDIA (NVDA) close at $190–195 in 2025? | Will NVIDIA (NVDA) close at $195–200 in 2025?,
+0xdd5fc1676f84019ce3cffa6f52c3060363407c0e,3,3,0,0,NVDA,100.0,Will NVIDIA (NVDA) close above $150 end of November? | Will NVIDIA (NVDA) close above $170 end of November? | Will NVIDIA (NVDA) beat quarterly earnings?,
+0x947db9d96aea1650d4879eba95e0d6aa0dd93e90,10,2,6,2,"AAPL, GOLD, GOOGL, NVDA",20.0,Will NVIDIA (NVDA) hit $165 before 2026?? | Will NVIDIA (NVDA) hit $160 before 2026??,Will Apple reach $280 in November? | Will Apple (AAPL) hit $300 before 2026?? | Will Google reach $300 in November? | Will Google reach $290 in November? | Will NVIDIA (NVDA) finish week of November 17 above $180? | Will NVIDIA (NVDA) hit $190 before 2026??
+0xa155ca5ecc705be8a8af4a90a26105c9ea02bf9e,4,2,2,0,"AAPL, NVDA",50.0,Tim Cook out as Apple CEO in 2025? | Will Apple acquire Perplexity in 2025?,Will Apple be the second-largest company in the world by market cap on December 31? | Will NVIDIA be the largest company in the world by market cap on November 30?
+0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac,4,2,2,0,"AAPL, GOOGL, MSFT, NVDA",50.0,Will Apple be the largest company in the world by market cap on November 30? | Will Google (GOOGL) close above $260 end of December?,Will Microsoft dip to $465 in November? | Will NVIDIA (NVDA) close at <$160 in 2025?
+0xfece5d531c16508de2bd445e772e51d143c0d147,3,2,1,0,"GOOGL, META, NVDA",66.7,Will Google (GOOGL) close above $220 end of November? | Will Meta reach $960 in November?,Will NVIDIA be the largest company in the world by market cap on March 31?
+0xfa4efb76f67bfe940d026adace39a8dac1df3b76,2,2,0,0,NVDA,100.0,Will NVIDIA dip to $144 in November? | Will NVIDIA dip to $124 in November?,
+0xdc04703855a5fd08f577a22f987fb41e49348a9a,8,1,7,0,GOOGL,12.5,Will Google (GOOGL) hit $290 before 2026??,Will Google (GOOGL) hit $375 before 2026?? | Will Google (GOOGL) hit $355 before 2026?? | Will Google (GOOGL) hit $345 before 2026?? | Will Google (GOOGL) hit $335 before 2026?? | Will Google (GOOGL) hit $285 before 2026?? | Will Google (GOOGL) hit $275 before 2026?? | Will Google (GOOGL) hit $260 before 2026??
+0xd71a41ec000089ae99873afb4d15cc7d54dd95bc,5,1,4,0,"GOOGL, MSFT, NVDA",20.0,Will Microsoft be the second-largest company in the world by market cap on November 30?,Will Google reach $335 in November? | Will Microsoft reach $555 in November? | Will NVIDIA reach $268 in November? | Will Nvidia (NVDA) hit a 52-Week High by December 31?
+0x2203e88248a59eec300f2bffecceabe29e0986b4,2,1,1,0,"AMZN, NVDA",50.0,Will Amazon be the largest company in the world by market cap on March 31?,Will NVIDIA be the largest company in the world by market cap on March 31?
+0x2b722ee9a9932ead52af0586fdb545eb8758de68,2,1,1,0,GOOGL,50.0,Will Google (GOOGL) hit $335 before 2026??,Will Google (GOOGL) close at $310–325 in 2025?
+0x57fc5d089f5aecf327b40472bcf52f52cf31928a,2,1,1,0,"NVDA, TSLA",50.0,Will NVIDIA (NVDA) beat quarterly earnings?,Will Tesla acquire xAI in 2025?
+0x635cb5c09388d295ea7ca55efe8f850c88039ecf,2,1,1,0,"AAPL, NVDA",50.0,Will NVIDIA be the second-largest company in the world by market cap on December 31?,Will Apple be the second-largest company in the world by market cap on November 30?
+0x80401362dc41308f34195f85fa508695cab4f5eb,2,1,1,0,"NVDA, TSLA",50.0,Will NVIDIA (NVDA) close at >$220 in 2025?,Will Tesla (TSLA) close at $415-$420 on the final day of trading of the week of Nov 24 – Nov 28?
+0x929d9bc38739d587278b77eb4cd23a027de5b4de,2,1,1,0,META,50.0,Will Meta dip to $550 in November?,Will Meta (META) hit a 52-Week High by December 31?
+0x238ae641390a55969271161401880bb154b06ebe,1,1,0,0,NVDA,100.0,Will NVIDIA be the second-largest company in the world by market cap on December 31?,
+0x25484cb3130cfd833c8751266ab95d4c2993700b,1,1,0,0,TSLA,100.0,Musk out as Tesla CEO in 2025?,
+0x392ae4c105bd1ae95ffec05eefe645be3b6e6503,1,1,0,0,GOOGL,100.0,Sundar Pichai out as Google CEO in 2025?,
+0x41eb8d19ae61af581833c9e9cbdb25785fc6c08f,1,1,0,0,NVDA,100.0,Will NVIDIA (NVDA) close at $185–190 in 2025?,
+0x4f7f36299e4ff4f54352cdd537e4f8d86cb2386c,1,1,0,0,NVDA,100.0,Will NVIDIA (NVDA) beat quarterly earnings?,
+0x4fe2e743da6e8d1aa0c9ed5489d8c2c9b5f96c87,1,1,0,0,GOOGL,100.0,Will Google (GOOGL) hit $355 before 2026??,
+0x585fdb545362bfe550300d851d049244c21fc3d6,1,1,0,0,AAPL,100.0,Will Apple be the second-largest company in the world by market cap on December 31?,
+0x5d91c94fd64a08f9b9812c22f4da940b8ceda4ee,1,1,0,0,NVDA,100.0,Will NVIDIA (NVDA) beat quarterly earnings?,
+0x70770e5aa200d39bfd34b388fdd1d69a03f0a8f1,1,1,0,0,NVDA,100.0,Will NVIDIA (NVDA) beat quarterly earnings?,
+0x99291427e58c442636d265a5d65df23b9453db68,1,1,0,0,GOOGL,100.0,Will Google (GOOGL) hit $345 before 2026??,
+0x992fa1f4459042e59734c4e38bec152ff119ecdb,1,1,0,0,NVDA,100.0,Will NVIDIA be the largest company in the world by market cap on March 31?,
+0xa8da06619f2d7211f9625b57f37016f42a4bf105,1,1,0,0,AAPL,100.0,Will Apple be the second-largest company in the world by market cap on December 31?,
+0xb6d3e41eb7715e1460aabbb492f7fd1285fe78b3,1,1,0,0,NVDA,100.0,Will NVIDIA be the largest company in the world by market cap on November 30?,
+0xc4cee943e4f7140f568a38a0ebb967ba79600cc2,1,1,0,0,NVDA,100.0,"Will NVIDIA say ""Trump"" during earnings call?",
+0xc80ee9083e9272eac75c19fa494625c9efd51166,1,1,0,0,TSLA,100.0,Will Tesla (TSLA) hit $350 before 2026??,
+0xe091de93dd7f640c81790f401cac162c1bdf143e,1,1,0,0,XYZ100,100.0,Will Nasdaq (NDAQ) beat quarterly earnings?,
+0xefd23d0db9ad1b53f4ba2b0f300707a9da4bd931,1,1,0,0,TSLA,100.0,Will Tesla (TSLA) hit a 52-Week High by December 31?,
+0xefe1be7c6d0fcfb83808382c86899ddaba2a6b60,1,1,0,0,NVDA,100.0,Will NVIDIA (NVDA) beat quarterly earnings?,
+0xf26da589c149efa79b2be62f4b81b1b63a8ea7cd,1,1,0,0,NVDA,100.0,Will NVIDIA (NVDA) beat quarterly earnings?,
+0xfa6a68bfc3082177627ec216a8034396d84b2342,1,1,0,0,MSFT,100.0,Will Microsoft (MSFT) finish week of December 1 above $430?,
+0x3194770e03ec3b0ebeaa7eb93b01290a85acc905,5,0,5,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $195-$200 on the final day of trading of the week of Nov 17 – Nov 21? | Will NVIDIA (NVDA) finish week of November 17 above $190? | Will NVIDIA (NVDA) finish week of November 17 above $195? | Will NVIDIA (NVDA) finish week of November 17 above $200? | Will NVIDIA (NVDA) finish week of November 17 above $205?
+0x3507cd15717bfe4d1414bdf69b05cd45450896ac,5,0,5,0,"AMZN, NVDA",0.0,,Will Amazon (AMZN) hit $260 before 2026?? | Will Amazon (AMZN) hit $245 before 2026?? | Will Amazon reach $248 in December? | Will Amazon reach $240 in December? | Will NVIDIA (NVDA) hit $200 before 2026??
+0x52533213eb5a8d5dad090680fdfd3517fff844a5,4,0,4,0,GOOGL,0.0,,Will Google reach $335 in November? | Will Google (GOOGL) hit $335 before 2026?? | Will Google (GOOGL) close at $310–325 in 2025? | Will Google (GOOGL) close at $325–340 in 2025?
+0xe08abbe90c17c55addd1e6676978350f98acd84f,4,0,0,4,GOLD,0.0,,
+0x18e423e3ffe102e3d8907c9db3f0e4e428e5d5e2,3,0,3,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $200–205 in 2025? | Will NVIDIA (NVDA) close at $210–215 in 2025? | Will NVIDIA (NVDA) close at >$220 in 2025?
+0x429d821e190fd37fb8572322922efee78bfb9a01,3,0,3,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $200-$205 on the final day of trading of the week of Nov 17 – Nov 21? | Will NVIDIA (NVDA) close at $205-$210 on the final day of trading of the week of Nov 17 – Nov 21? | Will NVIDIA (NVDA) close at $210-$215 on the final day of trading of the week of Nov 17 – Nov 21?
+0x677cd9d6ab0e9887fc9eaa5a620f6847eac26ced,2,0,2,0,GOOGL,0.0,,Will Google (GOOGL) hit $355 before 2026?? | Will Google (GOOGL) hit $345 before 2026??
+0x6e39ed17c93148007c9ed4ca963909f6a93893bd,2,0,0,2,GOLD,0.0,,
+0x9582460ff3c3304ddacf1bc1ca61d99139c90a34,2,0,2,0,NVDA,0.0,,"Will NVIDIA say ""Talent"" during earnings call? | Will NVIDIA say ""Taiwan"" during earnings call?"
+0xa5b02095aec69ef5b9308e1eecabb81c55ca0686,2,0,2,0,"NVDA, TSLA",0.0,,Will NVIDIA be the largest company in the world by market cap on November 30? | Musk out as Tesla CEO in 2025?
+0xaa60b395517172d254774a9691034e69b61a1f2d,2,0,2,0,NVDA,0.0,,Will NVIDIA dip to $160 in November? | Will NVIDIA (NVDA) beat quarterly earnings?
+0xaf63281487c76dbb992073c065be8537ec3f30e8,2,0,2,0,TSLA,0.0,,Will Tesla (TSLA) close at $425–450 in 2025? | Will Tesla (TSLA) close at $450–475 in 2025?
+0xc4275cbb126b7bcbc69969d4d9345d52d01219f0,2,0,2,0,NVDA,0.0,,"Will NVIDIA (NVDA) close above $170 end of November? | Will NVIDIA say ""Gaming"" during earnings call?"
+0xcac2edcd082628ba3ba31b3b74537792550319e6,2,0,2,0,GOOGL,0.0,,Will Google reach $380 in November? | Will Google reach $355 in November?
+0xdbe452f1a0d0190e161b5fae8ee3a530f099d9a3,2,0,0,2,GOLD,0.0,,
+0xde3431021bb79c0e6f7c33ba3453dffadcaa8fe5,2,0,2,0,NVDA,0.0,,Will NVIDIA (NVDA) beat quarterly earnings? | Will NVIDIA be the largest company in the world by market cap on March 31?
+0xf01c6f3986edc4a84149e63911ea692c8c37c296,2,0,0,2,GOLD,0.0,,
+0x0697d73c45dec6b136a2e2f4dcf0e6d44f146cfc,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) hit $355 before 2026??
+0x07d65eed5bbffc7a7fb767b1d9b2e008f9bce0a3,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) hit $345 before 2026??
+0x09a72958044f48e117235ad88af8a75818f81384,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) beat quarterly earnings?
+0x102e21f99e6957c74aace8ffa3211d738b51f02d,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $185–190 in 2025?
+0x1105651b56bba4325dcdee943ad3adfe8f658acd,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) beat quarterly earnings?
+0x150e90bc93e1527b6d45df5b802d83d575b76126,1,0,1,0,NVDA,0.0,,Will NVIDIA dip to $160 in November?
+0x1ce5b83205001d2e4564ff2c3572678b89622e59,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) close above $320 end of December?
+0x2396bc99feedc162af809314257571bb7ff07a36,1,0,1,0,TSLA,0.0,,Musk out as Tesla CEO in 2025?
+0x2efbf5104ce52a554cff92dcc67322e5ca8f9a03,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) hit $145 before 2026??
+0x2fa77e4f375ead8cc24fb06c98db8fe30ac4f648,1,0,1,0,AAPL,0.0,,Will Apple be the second-largest company in the world by market cap on November 30?
+0x30b112576380c356d3857702e0f5d954b4edb624,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) hit $335 before 2026??
+0x37995324fc1c91a41df5b9ebd8ed6b37ff4ca3ce,1,0,0,1,GOLD,0.0,,
+0x3c062a61c11ee76a0f0e886663c06283b5631011,1,0,1,0,NVDA,0.0,,Will NVIDIA reach $216 in November?
+0x4fd0e8b45171bb7196667a2df20067a5b5c80bc4,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) hit $375 before 2026??
+0x564b6676ae474387d7d08004e70c8e3dab8bd49d,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) beat quarterly earnings?
+0x57f0ecaa38b302ea7922325897a693e13dd158d9,1,0,1,0,GOLD,0.0,,Will Gold close below $4000 at the end of 2025?
+0x609d0fcb19ebccaf64ca70153a777d44938783a2,1,0,1,0,NVDA,0.0,,Will NVIDIA be the largest company in the world by market cap on March 31?
+0x63618d66c7a6a487491e2d0793f7b5b1c86485c0,1,0,0,1,GOLD,0.0,,
+0x67bf34e82fad5fa01adf3f55b986fdd05623d0ee,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) beat quarterly earnings?
+0x68427197de16294cda4525c7858d106770f230fa,1,0,1,0,TSLA,0.0,,Musk out as Tesla CEO in 2025?
+0x6a1389c3fd848e7acdc3cd91e8b6ec82ca7ec5d8,1,0,1,0,NVDA,0.0,,Will NVIDIA be the largest company in the world by market cap on March 31?
+0x6b6ca051739bceeca10f9b1fba43408d5e0d0d96,1,0,1,0,AAPL,0.0,,Will Apple be the second-largest company in the world by market cap on November 30?
+0x784a983f335f45af89f4dc65eec36223637cba8a,1,0,0,1,GOLD,0.0,,
+0x8130398e2269cf05a9482b988c935094e99ee4a8,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $185–190 in 2025?
+0x83edba88cb46f4b1dddd94458c2f952f24e95c45,1,0,1,0,NVDA,0.0,,Will NVIDIA be the largest company in the world by market cap on March 31?
+0x843cd5bde07fcd676b1cd48529e71bdce40998f7,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) close above $380 end of December?
+0x8c9e095a958af522b1962f238e02246967ba3eda,1,0,1,0,GOOGL,0.0,,Will Google (GOOGL) hit $355 before 2026??
+0x8e5b09b42798d092c8dc700c0ed069c423738f29,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $170–175 in 2025?
+0x954b6de2e9c58b0ca7b21e9a048fd0a6cea6f92c,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) close above $160 end of November?
+0x955caa327948ead6152d39257bfe1e7d307db47e,1,0,1,0,META,0.0,,Will Meta reach $760 in November?
+0x9b18bd08c490e96d9dd8e53f4196ad46208a7c0f,1,0,1,0,AAPL,0.0,,Will Apple be the second-largest company in the world by market cap on November 30?
+0xa01b2a6e104fce178607272abd2234c3436a15cb,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) close at $185–190 in 2025?
+0xa681b8ade97554030760b8d0e7bce39731990ec4,1,0,1,0,GOLD,0.0,,"Will Gold close at $2,900-3,000 at the end of 2025?"
+0xab90381e4d1a6ee3bd2047d37d2a44ca7c46203c,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) finish week of November 10 above $170?
+0xb34fe64a4554381636de9121f5daaa4638a4f766,1,0,1,0,NVDA,0.0,,Will NVIDIA be the largest company in the world by market cap on November 30?
+0xba5e296aef040af296d53564d70622dc39f90238,1,0,0,1,GOLD,0.0,,
+0xbb3fb3b9b73a48ba86de794a04b706c6948e2792,1,0,1,0,NVDA,0.0,,Will NVIDIA dip to $144 in November?
+0xdba69b52adf4839c0c14df17492e2711708e664a,1,0,1,0,AAPL,0.0,,Will Apple be the second-largest company in the world by market cap on November 30?
+0xeb1b16ae95059d2dea0251951b4f23c8bb59a445,1,0,1,0,AAPL,0.0,,Will Apple (AAPL) close above $330 end of December?
+0xef1cf8fb8fd7ffeab1b91bdaa4338fdf2bc825c0,1,0,1,0,NVDA,0.0,,Will NVIDIA be the largest company in the world by market cap on November 30?
+0xf8f745624f4694023b5ba1b420d6d32b34b8c4d8,1,0,1,0,NVDA,0.0,,Will NVIDIA (NVDA) hit $190 before 2026??
+0xfc1ada788da4b8504a344056b467b9bfe695c1cc,1,0,1,0,NVDA,0.0,,Will NVIDIA be the largest company in the world by market cap on November 30?

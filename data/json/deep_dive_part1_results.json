@@ -1,0 +1,13 @@
+{
+  "speed_pm_first_avg_hours": 415.4581398487654,
+  "speed_hl_first_avg_hours": 475.44113362702547,
+  "frequency_distribution": {
+    "1": 130,
+    "2": 20,
+    "3": 4,
+    "4": 4
+  },
+  "concentration_top10_pct": 49.81891711973578,
+  "concentration_top50_pct": 91.8622106757933,
+  "concentration_top1pct_pct": 17.49103925594146
+}

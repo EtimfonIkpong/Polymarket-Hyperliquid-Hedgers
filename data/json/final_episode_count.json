@@ -1,0 +1,997 @@
+{
+  "raw_matches": 323,
+  "unique_wallets": 158,
+  "unique_wallet_asset_pairs": 198,
+  "pairs": [
+    {
+      "eoa": "0x30b112576380c356d3857702e0f5d954b4edb624",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdc04703855a5fd08f577a22f987fb41e49348a9a",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xd71a41ec000089ae99873afb4d15cc7d54dd95bc",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x41eb8d19ae61af581833c9e9cbdb25785fc6c08f",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xd6dd9ab331a9d360e3ccd85b8a2cb17dc38ac4a9",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdc04703855a5fd08f577a22f987fb41e49348a9a",
+      "coin": "GOOGL",
+      "market_count": 8
+    },
+    {
+      "eoa": "0x5d91c94fd64a08f9b9812c22f4da940b8ceda4ee",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x609d0fcb19ebccaf64ca70153a777d44938783a2",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x947db9d96aea1650d4879eba95e0d6aa0dd93e90",
+      "coin": "GOLD",
+      "market_count": 3
+    },
+    {
+      "eoa": "0xf8f745624f4694023b5ba1b420d6d32b34b8c4d8",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x4801af178dd07390941931c7e6f82b61a4344a0b",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x80401362dc41308f34195f85fa508695cab4f5eb",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2396bc99feedc162af809314257571bb7ff07a36",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x4915f11f23b8bedcaa3f895f52476be945d2df78",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x9e53894756141368a8957a471289d1431aea9445",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac",
+      "coin": "AAPL",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xfa6a68bfc3082177627ec216a8034396d84b2342",
+      "coin": "MSFT",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac",
+      "coin": "MSFT",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x3507cd15717bfe4d1414bdf69b05cd45450896ac",
+      "coin": "AMZN",
+      "market_count": 4
+    },
+    {
+      "eoa": "0x82fa32993fff3bc87777136d28935b9e89a6195d",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbf89b186b71d559ad36ac4e0722baadb59c625e9",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x0e893d9769c3210c73843230dd250eecbc8fa302",
+      "coin": "GOOGL",
+      "market_count": 26
+    },
+    {
+      "eoa": "0xef1cf8fb8fd7ffeab1b91bdaa4338fdf2bc825c0",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x075267ffca613e8a86cb8eca03655281a0e2137b",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa665495b191a71f37663c363600f769300f3523b",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x150e90bc93e1527b6d45df5b802d83d575b76126",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x8c9e095a958af522b1962f238e02246967ba3eda",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x69734444a9c9954c21d83b5f062802909dc5112b",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x0697d73c45dec6b136a2e2f4dcf0e6d44f146cfc",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc360fcc95172ea884c14ba6646e065f08ac9529c",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x4915f11f23b8bedcaa3f895f52476be945d2df78",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x784a983f335f45af89f4dc65eec36223637cba8a",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xde3431021bb79c0e6f7c33ba3453dffadcaa8fe5",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x4fe2e743da6e8d1aa0c9ed5489d8c2c9b5f96c87",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdba69b52adf4839c0c14df17492e2711708e664a",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x947db9d96aea1650d4879eba95e0d6aa0dd93e90",
+      "coin": "AAPL",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x6a1389c3fd848e7acdc3cd91e8b6ec82ca7ec5d8",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa155ca5ecc705be8a8af4a90a26105c9ea02bf9e",
+      "coin": "AAPL",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x99291427e58c442636d265a5d65df23b9453db68",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x6d68a0448baa40096774a4a11cd56a6ead7e53b6",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x96adf8dfecb38d2c660a4927650ea6cde5e7fff5",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xd71a41ec000089ae99873afb4d15cc7d54dd95bc",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x868669cc2787f91dd434d95dc6c044d5738a4277",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x929d9bc38739d587278b77eb4cd23a027de5b4de",
+      "coin": "MSFT",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x954b6de2e9c58b0ca7b21e9a048fd0a6cea6f92c",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x97d7846316efe4581a5a1ef3de3e88814ba75e25",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc4275cbb126b7bcbc69969d4d9345d52d01219f0",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x4039afbee76230a59cf7ff8a30a41c49151688cd",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xfece5d531c16508de2bd445e772e51d143c0d147",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x564b6676ae474387d7d08004e70c8e3dab8bd49d",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x76ccc6562c377d08a0707452786063d2497a2e41",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xf6b776a55c256cd83ae0c8f4283f7c0a83842a1d",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xb6d3e41eb7715e1460aabbb492f7fd1285fe78b3",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbdf8cbe4d5b066e92384642446214ef111b2d692",
+      "coin": "TSLA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x0496f6b6a376d1aa3e1db8e6fcb333f3246bcb54",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xb0b1babf19dcefbeb9018288203a61f44a4c66df",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x18e423e3ffe102e3d8907c9db3f0e4e428e5d5e2",
+      "coin": "NVDA",
+      "market_count": 3
+    },
+    {
+      "eoa": "0xefd23d0db9ad1b53f4ba2b0f300707a9da4bd931",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x80401362dc41308f34195f85fa508695cab4f5eb",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x843cd5bde07fcd676b1cd48529e71bdce40998f7",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa5b02095aec69ef5b9308e1eecabb81c55ca0686",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x929d9bc38739d587278b77eb4cd23a027de5b4de",
+      "coin": "META",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xaa60b395517172d254774a9691034e69b61a1f2d",
+      "coin": "META",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa5b02095aec69ef5b9308e1eecabb81c55ca0686",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xaa60b395517172d254774a9691034e69b61a1f2d",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x07d65eed5bbffc7a7fb767b1d9b2e008f9bce0a3",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x647f37d138437c163ff74cd2cb92b386845fcba2",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x429d821e190fd37fb8572322922efee78bfb9a01",
+      "coin": "NVDA",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x3d21beabfff63aaef19b65fd0e4790b5ecc495bd",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x635cb5c09388d295ea7ca55efe8f850c88039ecf",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xe4e75d7df7fe0cfdfac5fa0c1e4eb184d5ef614c",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x1ce5b83205001d2e4564ff2c3572678b89622e59",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdba69b52adf4839c0c14df17492e2711708e664a",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdf3214b148b715d53f2579bbd2bc75ff2074a4bc",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xfa4efb76f67bfe940d026adace39a8dac1df3b76",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x00dfef5239af8aa2a260de92efc45898e0390c4f",
+      "coin": "GOOGL",
+      "market_count": 3
+    },
+    {
+      "eoa": "0xd71a41ec000089ae99873afb4d15cc7d54dd95bc",
+      "coin": "MSFT",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xfc1ada788da4b8504a344056b467b9bfe695c1cc",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x99291427e58c442636d265a5d65df23b9453db68",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x70770e5aa200d39bfd34b388fdd1d69a03f0a8f1",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xba5e296aef040af296d53564d70622dc39f90238",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2b722ee9a9932ead52af0586fdb545eb8758de68",
+      "coin": "MSFT",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x596c375cf6c768a62be2dabb14b402235532b3e0",
+      "coin": "XYZ100",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x1105651b56bba4325dcdee943ad3adfe8f658acd",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x8130398e2269cf05a9482b988c935094e99ee4a8",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x5d97d0cc0c224dcd89032214328b9490c3eb9ce3",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2fa77e4f375ead8cc24fb06c98db8fe30ac4f648",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x392ae4c105bd1ae95ffec05eefe645be3b6e6503",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x6e393f0d0d3c997c8b3715ab77c48fad6b9472d1",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x6b6ca051739bceeca10f9b1fba43408d5e0d0d96",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x4fd0e8b45171bb7196667a2df20067a5b5c80bc4",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xe08abbe90c17c55addd1e6676978350f98acd84f",
+      "coin": "GOLD",
+      "market_count": 4
+    },
+    {
+      "eoa": "0xf26da589c149efa79b2be62f4b81b1b63a8ea7cd",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x676a9ecfffe15c07cd3e043172f322036a3b01d9",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x585fdb545362bfe550300d851d049244c21fc3d6",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x3507cd15717bfe4d1414bdf69b05cd45450896ac",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x677cd9d6ab0e9887fc9eaa5a620f6847eac26ced",
+      "coin": "GOOGL",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x635cb5c09388d295ea7ca55efe8f850c88039ecf",
+      "coin": "AAPL",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xbb3fb3b9b73a48ba86de794a04b706c6948e2792",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x57f0ecaa38b302ea7922325897a693e13dd158d9",
+      "coin": "GOLD",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x25484cb3130cfd833c8751266ab95d4c2993700b",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xab90381e4d1a6ee3bd2047d37d2a44ca7c46203c",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xde3431021bb79c0e6f7c33ba3453dffadcaa8fe5",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x2203e88248a59eec300f2bffecceabe29e0986b4",
+      "coin": "AMZN",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xb9ad158e0392b4809de8edcd9676df4d88fadf2e",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x13d2b134537ac468705973e5f063aea69c5846af",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc84ee7d2b96e67d9c627ebb249090158fae38abf",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x37995324fc1c91a41df5b9ebd8ed6b37ff4ca3ce",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2d5425033260cfb66b6dc2ba8239524a24787c28",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x6e39ed17c93148007c9ed4ca963909f6a93893bd",
+      "coin": "GOLD",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x947db9d96aea1650d4879eba95e0d6aa0dd93e90",
+      "coin": "NVDA",
+      "market_count": 5
+    },
+    {
+      "eoa": "0xa155ca5ecc705be8a8af4a90a26105c9ea02bf9e",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x53f2736fae551c998d4e72e519f1acf474264de4",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc80ee9083e9272eac75c19fa494625c9efd51166",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x929d9bc38739d587278b77eb4cd23a027de5b4de",
+      "coin": "NVDA",
+      "market_count": 3
+    },
+    {
+      "eoa": "0xa8da06619f2d7211f9625b57f37016f42a4bf105",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xf01c6f3986edc4a84149e63911ea692c8c37c296",
+      "coin": "GOLD",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xefe1be7c6d0fcfb83808382c86899ddaba2a6b60",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x8e5b09b42798d092c8dc700c0ed069c423738f29",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2203e88248a59eec300f2bffecceabe29e0986b4",
+      "coin": "MSFT",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x9b18bd08c490e96d9dd8e53f4196ad46208a7c0f",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x0e893d9769c3210c73843230dd250eecbc8fa302",
+      "coin": "NVDA",
+      "market_count": 24
+    },
+    {
+      "eoa": "0x94e96f514d9ce094cc933a2b378f9cc62af8c78d",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x81a9871770414df0f2ba24c962ea0491e1029260",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x5f17ac20c855321449d24fbc7a03d0ac9c8c4aa0",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbb999dd40dbd4be23a6b76ba65b94be3d817d8ac",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x307bb416b121bd9b8fddf6880abe2b2fb77b58b4",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xb5eb49e2b16630d9a094733899f087107eaad2d8",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x8a4a50b13fd2cb36feb96c408cb98b4c9f2b8f25",
+      "coin": "XYZ100",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc4cee943e4f7140f568a38a0ebb967ba79600cc2",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xe6f751d9108b8468ad58b246c4daed4645df6e1f",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x843cd5bde07fcd676b1cd48529e71bdce40998f7",
+      "coin": "AMZN",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x63c77f47846225c8c0af00a833a9a231abcd271c",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa681b8ade97554030760b8d0e7bce39731990ec4",
+      "coin": "GOLD",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xaf63281487c76dbb992073c065be8537ec3f30e8",
+      "coin": "TSLA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x2203e88248a59eec300f2bffecceabe29e0986b4",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa25ba7b19fd745024f55919ace172a160460fd98",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xe091de93dd7f640c81790f401cac162c1bdf143e",
+      "coin": "XYZ100",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x85a102ef086409cfd63d2627038ce532f25b2418",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xe7780472db284b3c9847e931ae0f6c2c4fb45502",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xfa6825039674eb77aaa3d223f87c84e49121abbc",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc4275cbb126b7bcbc69969d4d9345d52d01219f0",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x4a34008928e223847b981084af11784c18db2397",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xfece5d531c16508de2bd445e772e51d143c0d147",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x68427197de16294cda4525c7858d106770f230fa",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x24fb6523036ebcb3cc51deff138066dccf6bed0f",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2efbf5104ce52a554cff92dcc67322e5ca8f9a03",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xef1cf8fb8fd7ffeab1b91bdaa4338fdf2bc825c0",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xfece5d531c16508de2bd445e772e51d143c0d147",
+      "coin": "GOOGL",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x71791906152fc0964d626ada10ce7a696371b5e2",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2b64ea69157d6c6ddfe90a906f2eb235d25b21b6",
+      "coin": "NVDA",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x9585f21aaf59faf1b42473ff4fe7a5d48f8d33ad",
+      "coin": "XYZ100",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbd7140b88a306ea97a5d09cabe81960ea11b21b3",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x947db9d96aea1650d4879eba95e0d6aa0dd93e90",
+      "coin": "GOOGL",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x52533213eb5a8d5dad090680fdfd3517fff844a5",
+      "coin": "GOOGL",
+      "market_count": 4
+    },
+    {
+      "eoa": "0xdbe452f1a0d0190e161b5fae8ee3a530f099d9a3",
+      "coin": "GOLD",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x4f7f36299e4ff4f54352cdd537e4f8d86cb2386c",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x25484cb3130cfd833c8751266ab95d4c2993700b",
+      "coin": "TSLA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x992fa1f4459042e59734c4e38bec152ff119ecdb",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x955caa327948ead6152d39257bfe1e7d307db47e",
+      "coin": "META",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbb52b82a367e2c45bbaa6375a5333c2e17663d55",
+      "coin": "GOLD",
+      "market_count": 6
+    },
+    {
+      "eoa": "0x5b87cd30d9fff29a4268a4294a4452731d95cac8",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x83edba88cb46f4b1dddd94458c2f952f24e95c45",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x596c375cf6c768a62be2dabb14b402235532b3e0",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa6a279ae513d06acd243eba5406e3cebed342fb8",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x57fc5d089f5aecf327b40472bcf52f52cf31928a",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xeb1b16ae95059d2dea0251951b4f23c8bb59a445",
+      "coin": "AAPL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xcac2edcd082628ba3ba31b3b74537792550319e6",
+      "coin": "GOOGL",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x09a72958044f48e117235ad88af8a75818f81384",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x57fc5d089f5aecf327b40472bcf52f52cf31928a",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x9e4224fd20e2acd57553e26a5d07be53b96c2ab9",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdd5fc1676f84019ce3cffa6f52c3060363407c0e",
+      "coin": "NVDA",
+      "market_count": 3
+    },
+    {
+      "eoa": "0x67bf34e82fad5fa01adf3f55b986fdd05623d0ee",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x635cb5c09388d295ea7ca55efe8f850c88039ecf",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x0111449628a6afae3395620fabccf0eacf91b8ff",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x6accb3eca94562416aaccad044241ba91de61b7f",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x102e21f99e6957c74aace8ffa3211d738b51f02d",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x238ae641390a55969271161401880bb154b06ebe",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xdf3214b148b715d53f2579bbd2bc75ff2074a4bc",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xbacdb05c55385c1f4122f466f37d1cfc16ee3198",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa01b2a6e104fce178607272abd2234c3436a15cb",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x63618d66c7a6a487491e2d0793f7b5b1c86485c0",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x9529746295eaffc60937636e32f234f06bd16af3",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x9582460ff3c3304ddacf1bc1ca61d99139c90a34",
+      "coin": "NVDA",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x81ce568b500892baf6946bb37ef86c6dee608eb2",
+      "coin": "GOOGL",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xb34fe64a4554381636de9121f5daaa4638a4f766",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x3194770e03ec3b0ebeaa7eb93b01290a85acc905",
+      "coin": "NVDA",
+      "market_count": 5
+    },
+    {
+      "eoa": "0x2b64ea69157d6c6ddfe90a906f2eb235d25b21b6",
+      "coin": "GOLD",
+      "market_count": 2
+    },
+    {
+      "eoa": "0x3c062a61c11ee76a0f0e886663c06283b5631011",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x68e1838d6e49d79303b0956ddca080cd41fa61a5",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xa8da06619f2d7211f9625b57f37016f42a4bf105",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2203e88248a59eec300f2bffecceabe29e0986b4",
+      "coin": "NVDA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0xc4275cbb126b7bcbc69969d4d9345d52d01219f0",
+      "coin": "TSLA",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x11573bc2152e215ed3071d7668084518cbbed215",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x0b681314bc59b6576a08ad13457808d4c0bce6f2",
+      "coin": "GOLD",
+      "market_count": 1
+    },
+    {
+      "eoa": "0x2b722ee9a9932ead52af0586fdb545eb8758de68",
+      "coin": "GOOGL",
+      "market_count": 2
+    },
+    {
+      "eoa": "0xfece5d531c16508de2bd445e772e51d143c0d147",
+      "coin": "META",
+      "market_count": 1
+    }
+  ]
+}

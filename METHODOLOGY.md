@@ -4,7 +4,7 @@
 
 ### Research Question
 
-This research investigates whether traders who bet on Polymarket's Finance-category markets simultaneously hold or held correlated perpetual positions on Hyperliquid's HIP-3 builder-deployed exchanges — specifically trade.xyz, where the same real-world assets (NVDA, GOLD, SP500, TSLA, etc.) are tradeable as on-chain perpetual futures.
+This research investigates whether traders who bet on Polymarket's Finance-category markets simultaneously hold or held correlated perpetual positions on Hyperliquid's HIP-3 builder-deployed exchanges, specifically trade.xyz, where the same real-world assets (NVDA, GOLD, SP500, TSLA, etc.) are tradeable as on-chain perpetual futures.
 
 The central question: is cross-platform hedging between prediction markets and perpetual DEXs a real, observable behaviour, or does an exhaustive search of on-chain data find essentially nothing?
 
@@ -95,7 +95,7 @@ The broad test was correctly flagged as too permissive by peer review. The stric
 - Start: timestamp of the wallet's first buy on that specific market
 - End: timestamp of the wallet's last sell (if sold early), or the market's endDate (if held to resolution)
 
-This was implemented using per-trade timestamps from re-fetched Polymarket trade history. The re-fetch was necessary because the original collection only stored price, size, and side — not timestamps for each individual trade. An additional bug was identified and corrected: an early version of the overlap function used `b_start >= a_start` as the second condition rather than the correct `b_start <= a_end`, which biased results toward HL-first cases. The correct standard interval overlap test (a_start ≤ b_end AND b_start ≤ a_end) was applied in the final version.
+This was implemented using per-trade timestamps from re-fetched Polymarket trade history. The re-fetch was necessary because the original collection only stored price, size, and side not timestamps for each individual trade. An additional bug was identified and corrected: an early version of the overlap function used `b_start >= a_start` as the second condition rather than the correct `b_start <= a_end`, which biased results toward HL-first cases. The correct standard interval overlap test (a_start ≤ b_end AND b_start ≤ a_end) was applied in the final version.
 
 Of 323 broad matches: 19 could not be evaluated because no PM trade data was retrievable for that proxy wallet on that market. Of the remaining 304, **220 passed the strict test and 84 failed**. The strict test confirmed **118 unique wallets**.
 
@@ -105,11 +105,11 @@ Of 323 broad matches: 19 could not be evaluated because no PM trade data was ret
 
 **Why the original method was wrong**
 
-The first attempt at measuring direction used average buy price as a proxy: prices above $0.55 were labeled "Buying Yes (bullish)" and prices below $0.45 were labeled "Buying No (bearish)." This approach fails in two independent ways. First, price does not identify which token was bought — a trader buying the NO token at $0.80 in a market with only 20% probability gets labeled "bullish" when they are clearly bearish. Second, "Yes" is not always bullish. Polymarket includes markets phrased as "Will MSFT dip to $465 in November?" — buying Yes on this question is a bearish bet. The original method produced 58.9% genuine hedges, a number that could not be sustained under scrutiny.
+The first attempt at measuring direction used average buy price as a proxy: prices above $0.55 were labeled "Buying Yes (bullish)" and prices below $0.45 were labeled "Buying No (bearish)." This approach fails in two independent ways. First, price does not identify which token was bought a trader buying the NO token at $0.80 in a market with only 20% probability gets labeled "bullish" when they are clearly bearish. Second, "Yes" is not always bullish. Polymarket includes markets phrased as "Will MSFT dip to $465 in November?" buying Yes on this question is a bearish bet. The original method produced 58.9% genuine hedges, a number that could not be sustained under scrutiny.
 
 **The corrected method**
 
-Polymarket trade history was re-fetched for all 161 unique markets involved in confirmed matches, this time retaining the `outcome` and `outcomeIndex` fields. Direction was determined in two steps. First, the actual token bought was identified: if `outcomeIndex` is 0 the wallet bought the Yes token; if 1 they bought the No token. Second, each market question was classified for polarity — whether "Yes" represents a bullish or bearish outcome for the underlying asset. Markets phrased as "hit $X," "reach $X," "above $X," "largest company," or "first to $X" are bullish-if-yes. Markets phrased as "dip to $X," "close below $X," "fall to $X," or "close at <$X" are bearish-if-yes. Markets phrased as "close between $X and $Y" or "up or down" are neutral. True direction is then the combination of polarity and the token actually bought.
+Polymarket trade history was re-fetched for all 161 unique markets involved in confirmed matches, this time retaining the `outcome` and `outcomeIndex` fields. Direction was determined in two steps. First, the actual token bought was identified: if `outcomeIndex` is 0 the wallet bought the Yes token; if 1 they bought the No token. Second, each market question was classified for polarity whether "Yes" represents a bullish or bearish outcome for the underlying asset. Markets phrased as "hit $X," "reach $X," "above $X," "largest company," or "first to $X" are bullish-if-yes. Markets phrased as "dip to $X," "close below $X," "fall to $X," or "close at <$X" are bearish-if-yes. Markets phrased as "close between $X and $Y" or "up or down" are neutral. True direction is then the combination of polarity and the token actually bought.
 
 **Corrected results**
 
@@ -131,11 +131,11 @@ Note: 22 of 118 wallets could not be directionally classified because the outcom
 
 For each tight-confirmed match, the gap between the PM buy timestamp and the HL position open timestamp was calculated. A positive gap means PM was entered first and HL opened later; a negative gap means HL was opened first and PM was placed later.
 
-Of 220 tight matches with timing data: 83 (37.7%) had PM entered first with a median gap of 4.0 days before HL opened, and 137 (62.3%) had HL entered first with a median gap of 8.3 days before the PM bet was placed. In the majority of cases, the Hyperliquid position already existed when the Polymarket bet was placed — consistent with Hyperliquid traders discovering Polymarket, not Polymarket bettors hedging on Hyperliquid.
+Of 220 tight matches with timing data: 83 (37.7%) had PM entered first with a median gap of 4.0 days before HL opened, and 137 (62.3%) had HL entered first with a median gap of 8.3 days before the PM bet was placed. In the majority of cases, the Hyperliquid position already existed when the Polymarket bet was placed consistent with Hyperliquid traders discovering Polymarket, not Polymarket bettors hedging on Hyperliquid.
 
 **Wallet behavior breakdown**
 
-Each of the 96 wallets was assessed individually — counting every hedge and doubledown instance separately rather than relying solely on the dominant pattern. This revealed that 37 wallets had at least one genuine hedge instance even if hedging was not their dominant pattern.
+Each of the 96 wallets was assessed individually counting every hedge and doubledown instance separately rather than relying solely on the dominant pattern. This revealed that 37 wallets had at least one genuine hedge instance even if hedging was not their dominant pattern.
 
 **PM entry timing for genuine hedgers**
 
@@ -145,7 +145,7 @@ Of 68 hedge buy transactions from the 37 wallets with at least one genuine hedge
 
 34 of those 68 hedge buy transactions were placed at a price of $0.90 or higher per share — entering markets close to certain resolution. These were further broken down by bet size:
 
-For bets of $50 or more: 18 rows from 7 wallets, with a median of just 16 hours and 48 minutes before resolution, and 72.2% buying Yes. For bets of $10–$50: 10 rows from 9 wallets, with a median of 10 days before resolution, and 40% buying Yes. For bets under $10: 6 rows from 5 wallets, with a median of 15 days before resolution, and only 16.7% buying Yes. The pattern shows that larger bets at high-confidence prices entered very close to resolution — consistent with near-certainty farming rather than genuine directional hedging.
+For bets of $50 or more: 18 rows from 7 wallets, with a median of just 16 hours and 48 minutes before resolution, and 72.2% buying Yes. For bets of $10–$50: 10 rows from 9 wallets, with a median of 10 days before resolution, and 40% buying Yes. For bets under $10: 6 rows from 5 wallets, with a median of 15 days before resolution, and only 16.7% buying Yes. The pattern shows that larger bets at high-confidence prices entered very close to resolution and were consistent with near-certainty farming rather than genuine directional hedging.
 
 **PM/HL hedge ratio**
 
@@ -153,7 +153,7 @@ HL notional was computed as the sum of price times size across all fills (not ju
 
 **Bet size distribution**
 
-Of the 37 wallets with at least one genuine hedge: 1 wallet placed a bet of more than $1,000; 5 wallets placed bets between $100 and $999; 11 wallets placed bets between $25 and $99; and 22 wallets placed bets between $2 and $24. The 5 wallets in the $100–$999 range were analyzed in depth — none showed periodic or systematic hedging behaviour, all entered the market just once, and all had PM/HL ratios well below 0.01.
+Of the 37 wallets with at least one genuine hedge: 1 wallet placed a bet of more than $1,000; 5 wallets placed bets between $100 and $999; 11 wallets placed bets between $25 and $99; and 22 wallets placed bets between $2 and $24. The 5 wallets in the $100–$999 range were analyzed in depth none showed periodic or systematic hedging behaviour, all entered the market just once, and all had PM/HL ratios well below 0.01.
 
 ---
 
@@ -161,6 +161,6 @@ Of the 37 wallets with at least one genuine hedge: 1 wallet placed a bet of more
 
 The research set out to find whether systematic cross-platform hedging exists between Polymarket and trade.xyz. After a rigorous search of 338 million fills matched against 63,264 real wallets:
 
-Only 0.19% of Finance bettors had any strict asset-and-time overlap with trade.xyz. Of those, the dominant behaviour was directional amplification (doubling down), not risk reduction. The median PM/HL ratio of 0.002 means Polymarket bets are economically negligible relative to Hyperliquid positions. Activity was concentrated almost entirely in trade.xyz's first two months of operation and collapsed to near-zero by mid-2026 — characteristic of launch-window exploration rather than persistent strategy.
+Only 0.19% of Finance bettors had any strict asset-and-time overlap with trade.xyz. Of those, the dominant behaviour was directional amplification (doubling down), not risk reduction. The median PM/HL ratio of 0.002 means Polymarket bets are economically negligible relative to Hyperliquid positions. Activity was concentrated almost entirely in trade.xyz's first two months of operation and collapsed to near-zero by mid-2026. 
 
 The most accurate characterisation of the observed behaviour is: a small number of Hyperliquid traders occasionally place small, correlated bets on Polymarket about assets they are already trading. This is not hedging in any economically meaningful sense. Cross-platform hedging between Polymarket and trade.xyz, at this point in time, essentially does not exist at detectable scale.
